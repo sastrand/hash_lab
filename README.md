@@ -10,7 +10,7 @@ In this lab:
    * track the unique hashes you create and record the number of collisions
    * adjust the modulo value and see if you can change the collision rate
 
-No matter what, this set of UUIDs will have collisions with this algorithm. Expand on the algorithm in some way to reduce the collision rate. In particular, consider how UUIDs that are anagrams of one another would hash.
+The sets of UUIDs in this repo are not entirely random. There will be hash value collisions with the algorithm implemented exactly as above. Modify and expand on the algorithm to reduce this collision rate. In particular, consider how values that are anagrams of one another would hash.
 
 Then compare the results with those of Python's built-in `hash()` function.
 
