@@ -4,8 +4,7 @@
 In this lab:
    * read a file of UUIDs into a new program
    * implement the following simple hash function:
-       * for each character in the string representation of a UUID, find its Unicode integer representation. 
-           * you may find the Python `ord()` function helpful for this
+       * for each character in the string representation of a given UUID, find its Unicode integer representation (Python provides a built-in function for char to int conversion.)
        * sum the integer values of each character in the UUID
        * return that sum modulo a constant of your choice
    * track the unique hashes you create and record the number of collisions
