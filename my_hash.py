@@ -8,7 +8,7 @@ def my_hash_1(s):
 
 def my_hash_2(s):
     int_vals = [2**ord(c) for c in s]
-    int_vals = [c**i for i, c in zip(range(1, len(int_vals)+1), int_vals)]
+    int_vals = [c**i for i, c in enumerate(int_vals)]
     return sum(int_vals)
 
 def time_hash(hash_fun, uuids):
