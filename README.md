@@ -1,7 +1,5 @@
 ## Build a hash function with comprehensions
 
-In this lab, use comprehensions in place of for loops.
-
 In this lab:
    * read a file of UUIDs into a new program
    * implement the following simple hash function:
@@ -13,8 +11,12 @@ Improve this hash function, aiming for a collision rate below 1%. In particular,
 
 Then compare the results with those of Python's built-in `hash()` function.
 
+**For practice in this lab, use comprehensions instead of for loops.**
+
+<hr>
+
 In this directory there are two files of UUIDs:
    * `uuid.txt` contains 65,536 UUIDs
    * `uuid_test.txt` contains 16 UUIDs
 
-If you want to create more or different UUIDs, you can use the `gen_uuid.py` script to do so. Its command line parameters are described in the comments at the top of the file.
+`gen_uuid.py` will create more UUIDs. Its command line parameters are described in the comments at the top of the file.
