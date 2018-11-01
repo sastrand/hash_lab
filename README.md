@@ -15,7 +15,7 @@ Then compare the results with those of Python's built-in `hash()` function.
 
 <hr>
 
-## Part II: Build a hash map/dictionary class that uses your hash function
+## Part II: Build a dictionary (hash map) class that uses your hash function
 
 In this part:
    * Create a class named something like `Hash_Map` that will support a 1024-element associative array, called `assoc_array` and has a constructor that fills all 1024 spaces with independent empty lists.
