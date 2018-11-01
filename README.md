@@ -1,6 +1,6 @@
-## Build a hash function with comprehensions
+## Part I: Build a hash function with comprehensions
 
-In this lab:
+In this part:
    * read a file of UUIDs into a new program
    * implement the following simple hash function:
        * for each character in the string representation of a given UUID, find its Unicode integer representation (Python provides a built-in function for char to int conversion.)
