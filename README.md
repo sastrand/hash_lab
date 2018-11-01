@@ -15,6 +15,18 @@ Then compare the results with those of Python's built-in `hash()` function.
 
 <hr>
 
+## Part II: Build a hash map/dictionary class that uses your hash function
+
+In this part:
+   * Create a class named something like `Hash_Map` that will support a 1024-element associative array, called `assoc_array` and has a constructor that fills all 1024 spaces with independent empty lists.
+   * Include your hash function from part I as a method or instead use the Python's built-in `hash()` function when you need to hash.
+   * Write an `add` method that:
+        * will take a key and a value (aka "kv"), hash the key, and mod the hash by 1024. This value is the index in `assoc_array` where the kv pair will be stored.
+        * store the kv pair as a tuple in the list at this position in `assoc_array`. If there's already a kv pair in the list, this is a collision. In the event of a collision, add the new kv pair to the list just the same.
+   * Write an `in` function that takes a key and checks if the corresponding kv pair is in the dictionary.
+
+<hr>
+
 In this directory there are two files of UUIDs:
    * `uuid.txt` contains 65,536 UUIDs
    * `uuid_test.txt` contains 16 UUIDs
